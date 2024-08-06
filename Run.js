@@ -1,6 +1,6 @@
 var ParentBox;
 
-startBackground(...[new pageButton("home", "index.html"), new pageButton("about", "./About/index.html")]);
+startBackground(...[new pageButton("home", "index.html"), new pageButton("about", "About/index.html")]);
 br();
 addDescription("All my awesome projects from past about November 2023.  Most aren't meant for huge use as these are just my personal projects for testing and learning.");
 createMainBox();
