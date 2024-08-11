@@ -1,8 +1,13 @@
 class pageButton {
-    constructor(text, link) {
-        this.text = text;
-        this.link = link;
-    }
+	constructor(text, link, download) {
+		this.text = text;
+		this.link = link;
+		if(download === undefined) {
+			this.download = false;
+		} else {
+			this.download = download;
+		}
+	}
 }
 
 function createMainBox() {
@@ -38,10 +43,10 @@ function addDescription(Description)
     DescriptionDiv.appendChild(DescriptionText);
     document.body.appendChild(DescriptionDiv);
 }
-function addText(div, Text)
+function addText(div, Text, Size)
 {
 	var TextDiv = document.createElement("div");
-	var TextElement = document.createElement("h1");
+	var TextElement = document.createElement(Size);
 	
 	TextDiv.className = div;
 	TextElement.append(Text.replaceAll('  ', '\xA0\xA0'));
@@ -72,6 +77,9 @@ function addButtons(divClass, ...Links)
 		DivElement.className = divClass;
 		ButtonClass.className = "pageButton";
 		
+		if(Button.download) {
+			ButtonLink.setAttribute("download", Button.link);
+		}
 		ButtonLink.setAttribute("href", Button.link);
 		ButtonClass.append(Button.text);
 
