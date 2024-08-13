@@ -38,10 +38,10 @@ function addDescription(Description)
     DescriptionDiv.appendChild(DescriptionText);
     document.body.appendChild(DescriptionDiv);
 }
-function addText(div, Text)
+function addText(div, Text, Size)
 {
 	var TextDiv = document.createElement("div");
-	var TextElement = document.createElement("h1");
+	var TextElement = document.createElement(Size);
 	
 	TextDiv.className = div;
 	TextElement.append(Text.replaceAll('  ', '\xA0\xA0'));
