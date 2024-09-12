@@ -1,5 +1,8 @@
 startBackground(...[new pageButton("home", "../index.html"), new pageButton("about", "../About/index.html")]);
 br();
+addText("descriptionText", "BasicApp", "h1");
+br();
+
 addButtons("clickButtons", ...[new pageButton("Download", "https://github.com/Slycodger/CollisionTest/archive/refs/tags/slycodger.zip"), new pageButton("Git", "https://github.com/Slycodger/CollisionTest/tree/slycodger")]);
 br();
 br();

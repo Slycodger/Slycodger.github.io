@@ -1,5 +1,7 @@
 startBackground(...[new pageButton("home", "../index.html"), new pageButton("about", "../About/index.html")]);
 br();
+addText("descriptionText", "CPPEngine", "h1");
+br();
 addButtons("clickButtons", ...[new pageButton("Download", "https://github.com/Slycodger/CPPEngine/archive/refs/tags/slycodger.zip"), new pageButton("Git", "https://github.com/Slycodger/CPPEngine/tree/slycodger")]);
 br();
 br();
