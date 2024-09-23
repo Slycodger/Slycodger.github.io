@@ -1,8 +1,6 @@
 startBackground(...[new pageButton("home", "../index.html"), new pageButton("about", "../About/index.html")]);
 br();
-
-addText("descriptionText", "BasicApp", "h1");
+addButtons("clickButtons", ...[new pageButton("Download", "https://github.com/Slycodger/BasicApp/archive/refs/heads/main.zip"), new pageButton("Git", "https://github.com/Slycodger/BasicApp.git")]);
 br();
-addDescription("No git yet so no download either :(");
 br();
 addText("bigText", "This is going to be either a simple 2D app maker since I have some things I want to make, or a painting app.  Haven't decided yet.", "h1");
