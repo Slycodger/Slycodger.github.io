@@ -8,4 +8,4 @@ addDescription("All my awesome projects from past about November 2023.  Most are
 createMainBox();
 createProjectBox("CPPEngine", "./CPPEngine/index.html", "A multiple month project to create an engine with c++ using OpenGL.");
 createProjectBox("Unity collision system", "./UnityCollisionSystem/index.html", "My last Unity project where I attempted to create the collision system described by Kasber Fauerby");
-createProjectBox("Basic app", "./BasicApp/index.html", "A basic project that I haven't decided on what to use with yet");
+createProjectBox("Basic app", "./BasicApp/index", "A basic project that I haven't decided on what to use with yet");
