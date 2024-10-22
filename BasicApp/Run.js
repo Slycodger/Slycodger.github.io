@@ -3,4 +3,4 @@ br();
 addButtons("clickButtons", ...[new pageButton("Download", "https://github.com/Slycodger/BasicApp/archive/refs/heads/main.zip"), new pageButton("Git", "https://github.com/Slycodger/BasicApp.git")]);
 br();
 br();
-addText("bigText", "This is going to be either a simple 2D app maker since I have some things I want to make, or a painting app.  Haven't decided yet.", "h1");
+addText("bigText", "Still have no idea what this is going to become.  So far it's looking like a 2D library", "h1");
