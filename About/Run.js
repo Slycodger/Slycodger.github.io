@@ -1,4 +1,4 @@
-startBackground(...[new pageButton("home", "../index.html"), new pageButton("about", "index.html")]);
+startBackground(...[new pageButton("home", "../index"), new pageButton("about", "index")]);
 br();
 addText("descriptionText", "About", "h1");
 br();

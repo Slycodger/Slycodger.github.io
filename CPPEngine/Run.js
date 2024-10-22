@@ -1,4 +1,4 @@
-startBackground(...[new pageButton("home", "../index.html"), new pageButton("about", "../About/index.html")]);
+startBackground(...[new pageButton("home", "../index"), new pageButton("about", "../About/index")]);
 br();
 addText("descriptionText", "CPPEngine", "h1");
 br();

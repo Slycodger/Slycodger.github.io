@@ -1,4 +1,4 @@
-startBackground(...[new pageButton("home", "../index.html"), new pageButton("about", "../About/index.html")]);
+startBackground(...[new pageButton("home", "../index"), new pageButton("about", "../About/index")]);
 br();
 addButtons("clickButtons", ...[new pageButton("Download", "https://github.com/Slycodger/BasicApp/archive/refs/heads/main.zip"), new pageButton("Git", "https://github.com/Slycodger/BasicApp.git")]);
 br();
